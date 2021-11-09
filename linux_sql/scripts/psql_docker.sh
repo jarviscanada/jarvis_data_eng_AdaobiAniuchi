@@ -13,7 +13,7 @@ case $cmd in
 
   if [ -n "$container_status" ] && [ "$container_status" -eq 0 ]; then
 		echo 'Container already exists'
-		exit 1
+		exit 0
 	fi
 
   if [ $# -ne 3 ]; then
@@ -27,7 +27,7 @@ case $cmd in
 	export PGUSERNAME=$db_username
 
 	docker run --name jrvs-psql -e POSTGRES_PASSWORD="$PGPASSWORD" -e POSTGRES_USER="$PGUSERNAME" -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
-	exit 0
+	exit $?
 	;;
 
   start|stop)
@@ -37,7 +37,7 @@ case $cmd in
   fi
 
 	docker container "$cmd" jrvs-psql
-	exit 0
+	exit $?
 	;;
 
   *)
