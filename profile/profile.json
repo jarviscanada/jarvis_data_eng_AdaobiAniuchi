@@ -1,0 +1,141 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Master of Applied Computing",
+      "department": "School of Computer Science",
+      "duration": "2020-present (Program to be completed by December 2021)",
+      "school_name": "University of Windsor"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Technology",
+      "department": "Computer Science and Information Technology",
+      "duration": "2012-2017",
+      "school_name": "Bells University of Technology"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AdaobiAniuchi",
+  "highlighted_projects": [
+    {
+      "description": "Coded a dev-oriented command line personal assistant using Node.js and wrote automated tests for implemented commands using mocha, chai and sinon.",
+      "git_url": "https://github.com/adamichelle/wade-cli",
+      "name": "Wade-Cli"
+    },
+    {
+      "description": "Built a web directory for local charities in Nigeria for an online hackathon using React, the Kendo React Library and Vercel serverless API.",
+      "git_url": "https://github.com/adamichelle/philanthroplist",
+      "name": "Philanthroplist"
+    },
+    {
+      "description": "Developed a mock social feed app with REST API endpoints for retrieving a feed of multimedia posts with sorting, and filtering capacities, individual posts, adding comments and liking posts using ExpressJS and MongoDB. Designed and created user interfaces that display data retrieved from the API endpoints created.",
+      "git_url": "https://github.com/UWin-MAC-Groups/insta-feed/",
+      "name": "InstaFeed"
+    },
+    {
+      "description": "Implemented a Carousel Widget with React, using the RSS feed of a Medium account to display a list of current web development related articles filtered by selected categories.",
+      "git_url": "https://github.com/adamichelle/medium-posts-widget",
+      "name": "Medium Posts Widget"
+    },
+    {
+      "description": "Coded a twitter bot that tweets a game of thrones quote every 30 days.",
+      "git_url": "https://github.com/adamichelle/tweet-quote-bot",
+      "name": "Tweet Quote Bot Twitter Bot"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a Minimum Viable Product MVP of a Linux Cluster Monitoring Agent for managing and monitoring hardware information and resource usage for nodes in a Linux cluster. Implemented the project using Bash scripting, Docker, PostgreSQL and Crontab. Tested the app on the command-line and verified the results manually from the database. Managed all bash and SQL script source code with Git and GitHub. Provisioned the PostgreSQL database using Docker. Scheduled the bash agent program to run at one-minute intervals using Crontab.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Not Started.",
+        "JDBC App: Not Started.",
+        "Grep App: In Progress."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "Not Started",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "Not Started",
+      "git_url": "/python_data_analytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "Not Started",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "Not Started",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "Not Started",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Adaobi Aniuchi",
+  "others": [
+    {
+      "bullets": [
+        "Udacity Mobile Web Specialist (2018)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Technical Writing: Authored articles and tutorials on NodeJS and Python development featured on Stack Abuse, Digital Ocean Community and Data Drive Publication on Medium."
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Collaborating with an agile team through the practice of Scrum principles. Developing applications using a wide range of technologies and languages ranging from Bash Scripting, Java, Python to Spark and Hadoop.",
+      "duration": "2021-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Wragby Business Solutions \u0026 Technologies Limited",
+      "description": "Developed the customer creation feature with email verification using ASP.NET core framework for a custody management enterprise application. Rendered application data in responsive web user interfaces using HTML, CSS, and JavaScript (JQuery) following prototyped interface designs. Wrote unit test cases using NUnit to test application features. Met with clients and stakeholders to demo features and incorporated feedback.",
+      "duration": "2020",
+      "title": "Graduate Software Development Intern"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "NodeJS/ExpressJS",
+      "ReactJS",
+      "C#",
+      "ASP.Net Core",
+      "MongoDB"
+    ],
+    "familiar": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Neo4J",
+      "Spring Boot"
+    ],
+    "proficient": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python",
+      "Git",
+      "Agile/Scrum"
+    ]
+  },
+  "summary": "I am a graduate student at the University of Windsor in the final days of my program. I am pursuing a professional master's degree in Applied Computing. Before that, I interned first as a Microsoft Leap Apprentice and subsequently as a graduate intern at a software development and consulting firm. During this time, I collaborated with the software team to release features for a custody management system for a local bank. The diverse range of applications in different industries possible by applying software development principles is one of my favorite things about the industry. I also like that it is an ever-evolving field, so there is always something new to learn. I am currently with Jarvis to expand and gain new software and data engineering skills by working on various software projects using different languages and frameworks in an agile environment."
+}
