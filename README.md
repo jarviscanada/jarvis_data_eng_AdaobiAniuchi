@@ -61,4 +61,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdaobiAniu
 
 ## Miscellaneous
 - Udacity Mobile Web Specialist (2018)
-- Technical Writing: Authored articles and tutorials on NodeJS and Python development featured on Stack Abuse, Digital Ocean Community and Data Drive Publication on Medium.
+- Technical Writing: Authored articles and tutorials on NodeJS and Python development featured on Stack Abuse, Digital Ocean Community and Data Driven Investor Publication on Medium.
