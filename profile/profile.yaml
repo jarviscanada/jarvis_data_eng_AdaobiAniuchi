@@ -1,0 +1,97 @@
+# Preferred name (Characters only)
+name: "Adaobi Aniuchi"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AdaobiAniuchi
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I am a graduate student at the University of Windsor in the final days of my program. I am pursuing a professional master's degree in Applied Computing. Before that, I interned first as a Microsoft Leap Apprentice and subsequently as a graduate intern at software development and consulting firm. During this time, I collaborated with the software team to release features for a custody management system for a local bank. The diverse range of applications in different industries possible by applying software development principles is one of my favourite things about the industry. I also like that it is an ever-evolving field, so there is always something new to learn. I am currently with Jarvis to expand and gain new software and data engineering skills by working on various software projects using different languages and frameworks in an agile environment.
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  proficient:
+    - Java
+    - Python
+    - Linux/Shell
+    - HTML/CSS
+    - Javascript/Node.js/React.js
+    - RDBMS/SQL
+    - Git
+    - Agile/Scrum
+  # At least 5 skills
+  competent:
+    - Spring Boot
+    - C#
+    - ASP.Net Core
+    - MongoDB
+    - Mocha
+    - Chai
+    - Sinon
+  # At least 5 skills
+  familiar:
+    - Neo4J
+    - NUnit
+    - Mockito
+    - Django
+    - Azure DevOps
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    description: "Developed a Minimum Viable Product MVP of a Linux Cluster Monitoring Agent for managing and monitoring hardware information and resource usage for nodes in a Linux cluster. Implemented the project using Bash scripting, Docker, PostgreSQL and Crontab. Tested the app on the command-line and verified the results manually from the database. Managed all bash and SQL script source code with Git and GitHub. Provisioned the PostgreSQL database using Docker. Scheduled the bash agent program to run at one-minute intervals using Crontab."
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description: "In-progress"
+
+highlighted_projects:
+  - name: "Wade-Cli"
+    git_url: "https://github.com/adamichelle/wade-cli"
+    description: "Coded a dev-oriented command line personal assistant using Node.js and wrote automated tests for implemented commands using Mocha, Chai and Sinon."
+  - name: "Philanthroplist"
+    git_url: "https://github.com/adamichelle/philanthroplist"
+    description: "Built a web directory for local charities in Nigeria for an online hackathon using React, the Kendo React Library and Vercel serverless API."
+  - name: "InstaFeed"
+    git_url: "https://github.com/UWin-MAC-Groups/insta-feed/"
+    description: "Developed a mock social feed app with REST API endpoints for retrieving a feed of multimedia posts with sorting, and filtering capacities, individual posts, adding comments and liking posts using ExpressJS and MongoDB. Designed and created user interfaces that display data retrieved from the API endpoints created."
+  - name: "Medium Posts Widget"
+    git_url: "https://github.com/adamichelle/medium-posts-widget"
+    description: "Implemented a Carousel Widget with React, using the RSS feed of a Medium account to display a list of current web development related articles filtered by selected categories."
+  - name: "Tweet Quote Bot Twitter Bot"
+    git_url: "https://github.com/adamichelle/tweet-quote-bot"
+    description: "Coded a twitter bot that tweets a game of thrones quote every 30 days using Python, Twitter APIs and Cron-job."
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2021-present"
+    description: "Collaborating with an agile team through the practice of Scrum principles. Developing applications using a wide range of technologies and languages ranging from Bash Scripting, Java, Python to Spark and Hadoop."
+  - title: "Graduate Software Development Intern"
+    company: "Wragby Business Solutions & Technologies Limited"
+    duration: "2020"
+    description: "Developed the customer creation feature with email verification using ASP.NET core framework for a custody management enterprise application. Rendered application data in responsive web user interfaces using HTML, CSS, and JavaScript (JQuery) following prototyped interface designs. Wrote unit test cases using NUnit to test application features. Met with clients and stakeholders to demo features and incorporated feedback."
+
+education: 
+  - school_name: "University of Windsor"
+    duration: "2020-present (Program to be completed by December 2021)"
+    degree: "Master of Applied Computing"
+    department: "School of Computer Science"
+    awards_achievements:
+  - school_name: "Bells University of Technology"
+    duration: "2012-2017"
+    degree: "Bachelor of Technology"
+    department: "Computer Science and Information Technology"
+    awards_achievements:
+
+#Optional section
+others:
+  - title: "Certificates"
+    bullets:
+      - "Udacity Mobile Web Specialist (2018)"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Technical Writing: Authored articles and tutorials on NodeJS and Python development featured on Stack Abuse, Digital Ocean Community and Data Driven Investor Publication on Medium."
