@@ -1,5 +1,6 @@
 package ca.jrvs.apps.practice;
 
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,7 +12,7 @@ public class RegexExcImp implements RegexExc {
      */
     @Override
     public boolean matchJpeg(String filename) {
-        String regex = "[a-z\\-]+\\.\\bjpe?g\\b";
+        String regex = "(?i)[a-zA-Z0-9_\\-]+\\.\\bjpe?g\\b";
         int matches = getMatches(regex, filename);
         return matches != 0;
     }
@@ -57,5 +58,43 @@ public class RegexExcImp implements RegexExc {
         }
 
         return matches;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Demonstrating usage of the created functions...");
+        System.out.println("Enter a file name to check if it is a jpeg or jpg file:");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.next();
+
+        RegexExcImp regexExcImp = new RegexExcImp();
+        boolean isJpeg = regexExcImp.matchJpeg(input);
+        while (!isJpeg) {
+            System.out.println("File is not a jpg or jpeg file. Try again.");
+            input = scanner.next();
+            isJpeg = regexExcImp.matchJpeg(input);
+        }
+        System.out.println("The filename inputted " + input + " has the jpg or jpeg extension.");
+
+        System.out.println("Enter an IP address to see if it is a match");
+        input = scanner.next();
+        boolean isIp = regexExcImp.matchIp(input);
+        while (!isIp) {
+            System.out.println(input + " is not a valid IP address. Please try again.");
+            input = scanner.next();
+            isIp = regexExcImp.matchIp(input);
+        }
+        System.out.println(input + " is a valid IP address.");
+
+        System.out.println("Enter an empty line using just spaces or the tab character or just press enter");
+        input = scanner.nextLine();
+        boolean isEmptyLine = regexExcImp.isEmptyLine(input);
+        while (!isEmptyLine) {
+            System.out.println("The line is not empty. Please try again.");
+            input = scanner.nextLine();
+            isEmptyLine = regexExcImp.isEmptyLine(input);
+        }
+        System.out.println("The line you provided is empty.");
+
+        System.out.println("\nThe program has now ended.");
     }
 }
