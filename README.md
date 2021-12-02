@@ -15,7 +15,7 @@ I am a graduate student at the University of Windsor in the final days of my pro
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdaobiAniuchi](https://github.com/jarviscanada/jarvis_data_eng_AdaobiAniuchi)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdaobiAniuchi/tree/master/linux_sql)]: Developed a Minimum Viable Product MVP of a Linux Cluster Monitoring Agent for managing and monitoring hardware information and resource usage for nodes in a Linux cluster. Implemented the project using Bash scripting, Docker, PostgreSQL and Crontab. Tested the app on the command-line and verified the results manually from the database. Managed all bash and SQL script source code with Git and GitHub. Provisioned the PostgreSQL database using Docker. Scheduled the bash agent program to run at one-minute intervals using Crontab.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdaobiAniuchi/tree/master/linux_sql)]: Developed an MVP of a Linux Cluster Monitoring Agent for managing and monitoring hardware information and resource usage for nodes in a Linux cluster. Implemented the project using Bash scripting, Docker, PostgreSQL and Crontab. Tested the app on the command-line and verified the results manually from the database. Managed all bash and SQL script source code with Git and GitHub. Provisioned the PostgreSQL database using Docker. Scheduled the bash agent program to run at one-minute intervals using Crontab.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdaobiAniuchi/tree/master/core_java)]: In-progress
 

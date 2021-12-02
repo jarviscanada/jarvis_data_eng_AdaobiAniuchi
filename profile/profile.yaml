@@ -39,7 +39,7 @@ skills:
 jarvis_projects:
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
-    description: "Developed a Minimum Viable Product MVP of a Linux Cluster Monitoring Agent for managing and monitoring hardware information and resource usage for nodes in a Linux cluster. Implemented the project using Bash scripting, Docker, PostgreSQL and Crontab. Tested the app on the command-line and verified the results manually from the database. Managed all bash and SQL script source code with Git and GitHub. Provisioned the PostgreSQL database using Docker. Scheduled the bash agent program to run at one-minute intervals using Crontab."
+    description: "Developed an MVP of a Linux Cluster Monitoring Agent for managing and monitoring hardware information and resource usage for nodes in a Linux cluster. Implemented the project using Bash scripting, Docker, PostgreSQL and Crontab. Tested the app on the command-line and verified the results manually from the database. Managed all bash and SQL script source code with Git and GitHub. Provisioned the PostgreSQL database using Docker. Scheduled the bash agent program to run at one-minute intervals using Crontab."
   - name: "Core Java Apps"
     git_url: "/core_java"
     description: "In-progress"
