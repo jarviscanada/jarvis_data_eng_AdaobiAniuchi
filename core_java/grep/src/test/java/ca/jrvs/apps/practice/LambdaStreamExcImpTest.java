@@ -55,7 +55,7 @@ class LambdaStreamExcImpTest {
     }
 
     @Test
-    @DisplayName("should return a stream of strings filtered by the pattern " +
+    @DisplayName("Should return a stream of strings filtered by the pattern " +
             "with none of the elements in the new stream containing the pattern")
     void filter() {
         Stream<String> actual = cut.filter(Arrays.stream(testStringArray), ".*e.*");
@@ -106,7 +106,7 @@ class LambdaStreamExcImpTest {
     }
 
     @Test
-    @DisplayName("Create an IntStream with integers from a given start int to the end int")
+    @DisplayName("Should create an IntStream with integers from a given start int to the end int")
     void createAnIntStreamWithIntegersWithinARange() {
         IntStream actual = cut.createIntStream(1, 3);
         IntStream expected = IntStream.of(1, 2, 3);
@@ -149,6 +149,7 @@ class LambdaStreamExcImpTest {
     }
 
     @Test
+    @DisplayName("Should generate a lambda printer that prints a given message with a prefix and suffix")
      void getLambdaPrinter() {
         Consumer<String> lambdaPrinter = cut.getLambdaPrinter("start>", "<end");
         lambdaPrinter.accept("hello");
@@ -157,6 +158,7 @@ class LambdaStreamExcImpTest {
     }
 
     @Test
+    @DisplayName("Should print the string of messages with the defined prefix and suffix using the lambda printer")
     void printMessages() {
         String[] messages = {"a", "b", "c"};
         Consumer<String> lambdaPrinter = cut.getLambdaPrinter("msg:", "!");
@@ -166,6 +168,7 @@ class LambdaStreamExcImpTest {
     }
 
     @Test
+    @DisplayName("Should print all the odd numbers in a stream after filtering out the even numbers")
     void printOdd() {
         IntStream intStream = cut.createIntStream(0, 5);
         Consumer<String> lambdaPrinter = cut.getLambdaPrinter("odd number:", "!");
@@ -175,7 +178,21 @@ class LambdaStreamExcImpTest {
     }
 
     @Test
+    @DisplayName("Should return the square of numbers in a stream of a list of integers as a stream of integers")
     void flatNestedInt() {
-        Assertions.assertFalse(false);
+        List<Integer> listOfInts = new ArrayList<>();
+        listOfInts.add(1);
+        listOfInts.add(2);
+        listOfInts.add(3);
+        Stream<List<Integer>> testInts = Stream.of(listOfInts);
+        Stream<Integer> expected = Stream.of(1, 4, 9);
+        Stream<Integer> actual = cut.flatNestedInt(testInts);
+
+        Iterator<Integer> actualIter = actual.iterator();
+        Iterator<Integer> expectedIter = expected.iterator();
+        while (actualIter.hasNext() && expectedIter.hasNext()) {
+            Assertions.assertEquals(expectedIter.next(), actualIter.next());
+        }
+        Assertions.assertTrue(!expectedIter.hasNext() && !actualIter.hasNext());
     }
 }

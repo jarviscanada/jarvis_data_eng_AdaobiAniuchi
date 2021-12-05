@@ -2,6 +2,7 @@ package ca.jrvs.apps.practice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.IntConsumer;
@@ -82,6 +83,6 @@ public class LambdaStreamExcImp implements LambdaStreamExc {
 
     @Override
     public Stream<Integer> flatNestedInt(Stream<List<Integer>> ints) {
-        return null;
+        return ints.flatMap(Collection::stream).map(i -> i*i);
     }
 }
