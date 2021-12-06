@@ -28,16 +28,10 @@ public class JavaGrepLambdaAndStreamImp implements JavaGrepLambdaAndStream {
     private String outFile;
 
     @Override
-    public void process() {
+    public void process() throws IOException {
         Stream<File> fileStream = listFiles(getRootPath());
-        Stream<Stream<String>> stringStream = fileStream.map(this::readLines);
-        stringStream.forEach(stringStream1 -> {
-            try {
-                writeToFile(stringStream1);
-            } catch (IOException ex) {
-                logger.error("Unable to write to file. The following error occurred", ex);
-            }
-        });
+        Stream<String> stringStreams = fileStream.flatMap(this::readLines);
+        writeToFile(stringStreams);
     }
 
     @Override
