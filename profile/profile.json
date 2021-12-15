@@ -50,7 +50,10 @@
       "name": "Cluster Monitor"
     },
     {
-      "description": "In-progress",
+      "description": [
+        "Java Grep App: Built a Java implementation of the grep functionality. It searches for a text pattern recursively in a given directory and outputs the matched lines to a specified file. Developed the project using core Java using libraries like java,io, sl4j, java.nio, lambda expressions, and the Stream API. Tested the app using both the command-line and local IDE. Built the app jar file using Maven and deployed the app as a Docker image.",
+        "JDBC App: Worked on an application that uses the Data Access Object pattern with the JDBC API to access and run queries against an RDBMS database. Implemented the project in core Java with a docker instance of PostgreSQL. Tested the program output and changes to the database by running queries against the database using DBeaver's SQL script editor."
+      ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
     }
