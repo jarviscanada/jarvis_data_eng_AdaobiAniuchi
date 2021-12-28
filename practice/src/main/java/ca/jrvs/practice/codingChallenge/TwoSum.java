@@ -30,7 +30,7 @@ public class TwoSum {
     }
 
     /**
-     * Return an array containing the two indices of elements of the given array that sum to the given target using the Brute force approach
+     * Return an array containing the two indices of elements of the given array that sum to the given target using Maps
      * Big-O: O(n)
      * Justification: This approach only traverses the entire nums array once in the worst case scenario where it has to go through the entire array before it finds a difference.
      * @param nums The array of numbers
